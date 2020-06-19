@@ -1,0 +1,6 @@
+module Pods_SearchApp_Agilo {
+  umbrella header "Pods-SearchApp_Agilo-umbrella.h"
+
+  export *
+  module * { export * }
+}

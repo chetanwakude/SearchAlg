@@ -1,0 +1,1 @@
+../../../Target Support Files/InstantSearchClient/InstantSearchClient-umbrella.h

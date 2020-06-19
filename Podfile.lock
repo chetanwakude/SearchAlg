@@ -1,0 +1,38 @@
+PODS:
+  - InstantSearch (5.2.3):
+    - InstantSearch/UI (= 5.2.3)
+    - InstantSearchCore (~> 6.5)
+    - Logging
+  - InstantSearch/UI (5.2.3):
+    - InstantSearchCore (~> 6.5)
+    - Logging
+  - InstantSearchClient (7.0.5)
+  - InstantSearchCore (6.6.3):
+    - InstantSearchClient (~> 7.0)
+    - InstantSearchInsights (~> 2.3)
+    - Logging
+  - InstantSearchInsights (2.3.2)
+  - Logging (1.2.0)
+
+DEPENDENCIES:
+  - InstantSearch (~> 5.0)
+  - InstantSearchClient (~> 7.0)
+
+SPEC REPOS:
+  trunk:
+    - InstantSearch
+    - InstantSearchClient
+    - InstantSearchCore
+    - InstantSearchInsights
+    - Logging
+
+SPEC CHECKSUMS:
+  InstantSearch: 787557554d6edcd1fe889702bec3fa1068c7f0b9
+  InstantSearchClient: cd4b41f46bed82c1b12c759c76b733f7ed6dd8c2
+  InstantSearchCore: 66bde6d8d027e6751ee759f2eb1fcf2d94eb6884
+  InstantSearchInsights: 62d5850fa7c7ae768cab621117b855e73c441aaf
+  Logging: 7838d379d234d7e5ae1265fa02804a9084caf04c
+
+PODFILE CHECKSUM: 6dadc06eee11e097da28de80de73150fb13f960c
+
+COCOAPODS: 1.8.4

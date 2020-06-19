@@ -1,0 +1,6 @@
+module InstantSearchCore {
+  umbrella header "InstantSearchCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

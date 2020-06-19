@@ -14,6 +14,8 @@
 		2648397E249C9AF0003BFB7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2648397C249C9AF0003BFB7F /* LaunchScreen.storyboard */; };
 		26483989249C9AF1003BFB7F /* SearchApp_AgiloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26483988249C9AF1003BFB7F /* SearchApp_AgiloTests.swift */; };
 		26483994249C9AF1003BFB7F /* SearchApp_AgiloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26483993249C9AF1003BFB7F /* SearchApp_AgiloUITests.swift */; };
+		2691DF80249CAA1800DF666C /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2691DF7F249CAA1700DF666C /* Data.json */; };
+		2CE930CD07DC118F39DA9E1B /* libPods-SearchApp_Agilo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7934B21F42E03A0F49EBB6 /* libPods-SearchApp_Agilo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C7934B21F42E03A0F49EBB6 /* libPods-SearchApp_Agilo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SearchApp_Agilo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26483970249C9AED003BFB7F /* SearchApp_Agilo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchApp_Agilo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26483973249C9AED003BFB7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26483975249C9AED003BFB7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		2648398F249C9AF1003BFB7F /* SearchApp_AgiloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchApp_AgiloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26483993249C9AF1003BFB7F /* SearchApp_AgiloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchApp_AgiloUITests.swift; sourceTree = "<group>"; };
 		26483995249C9AF1003BFB7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2691DF7F249CAA1700DF666C /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		BAE9C9467684CF53DD5587B0 /* Pods-SearchApp_Agilo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchApp_Agilo.release.xcconfig"; path = "Target Support Files/Pods-SearchApp_Agilo/Pods-SearchApp_Agilo.release.xcconfig"; sourceTree = "<group>"; };
+		F31B750E81B00FABB329B6B8 /* Pods-SearchApp_Agilo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchApp_Agilo.debug.xcconfig"; path = "Target Support Files/Pods-SearchApp_Agilo/Pods-SearchApp_Agilo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CE930CD07DC118F39DA9E1B /* libPods-SearchApp_Agilo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13298D5422A198A640F7822F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F31B750E81B00FABB329B6B8 /* Pods-SearchApp_Agilo.debug.xcconfig */,
+				BAE9C9467684CF53DD5587B0 /* Pods-SearchApp_Agilo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		26483967249C9AED003BFB7F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +97,8 @@
 				26483987249C9AF1003BFB7F /* SearchApp_AgiloTests */,
 				26483992249C9AF1003BFB7F /* SearchApp_AgiloUITests */,
 				26483971249C9AED003BFB7F /* Products */,
+				13298D5422A198A640F7822F /* Pods */,
+				E29525EA8B2E0E712418DA9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +119,7 @@
 				26483975249C9AED003BFB7F /* ViewController.swift */,
 				26483977249C9AED003BFB7F /* Main.storyboard */,
 				2648397A249C9AF0003BFB7F /* Assets.xcassets */,
+				2691DF7F249CAA1700DF666C /* Data.json */,
 				2648397C249C9AF0003BFB7F /* LaunchScreen.storyboard */,
 				2648397F249C9AF0003BFB7F /* Info.plist */,
 			);
@@ -125,6 +144,14 @@
 			path = SearchApp_AgiloUITests;
 			sourceTree = "<group>";
 		};
+		E29525EA8B2E0E712418DA9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C7934B21F42E03A0F49EBB6 /* libPods-SearchApp_Agilo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +159,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26483998249C9AF1003BFB7F /* Build configuration list for PBXNativeTarget "SearchApp_Agilo" */;
 			buildPhases = (
+				DC78FFC4663508ADD43CC7C0 /* [CP] Check Pods Manifest.lock */,
 				2648396C249C9AED003BFB7F /* Sources */,
 				2648396D249C9AED003BFB7F /* Frameworks */,
 				2648396E249C9AED003BFB7F /* Resources */,
@@ -232,6 +260,7 @@
 				2648397E249C9AF0003BFB7F /* LaunchScreen.storyboard in Resources */,
 				2648397B249C9AF0003BFB7F /* Assets.xcassets in Resources */,
 				26483979249C9AED003BFB7F /* Main.storyboard in Resources */,
+				2691DF80249CAA1800DF666C /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +279,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DC78FFC4663508ADD43CC7C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SearchApp_Agilo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2648396C249C9AED003BFB7F /* Sources */ = {
@@ -430,6 +484,7 @@
 		};
 		26483999249C9AF1003BFB7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31B750E81B00FABB329B6B8 /* Pods-SearchApp_Agilo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,13 +496,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.string.SearchApp-Agilo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		2648399A249C9AF1003BFB7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE9C9467684CF53DD5587B0 /* Pods-SearchApp_Agilo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,7 +515,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.string.SearchApp-Agilo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
